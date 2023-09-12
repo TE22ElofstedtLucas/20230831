@@ -24,18 +24,8 @@ else if (choice == "vänster")
     Console.WriteLine("Du märker att det inte bara är en dörr utan två dörrar!");
     Console.WriteLine("Väljer du dörr nummer 1 eller dörr nummer 2?");
 
-    
-
-}
-else if (choice == "nej")
-{
-    Console.WriteLine("Du skiter i de hela och går hem...");
-    Console.WriteLine("Så smart!");
-}
-
-
-choice = Console.ReadLine();
-choice = choice.ToLower();
+    choice = Console.ReadLine();
+  choice = choice.ToLower();
 
 if (choice == "1")
 {
@@ -49,6 +39,19 @@ else if (choice == "2")
     Console.WriteLine("Lite sämst...");
     Console.WriteLine("GAME OVER");
 }
+
+}
+else if (choice == "nej")
+{
+    Console.WriteLine("Du skiter i de hela och går hem...");
+    Console.WriteLine("Så smart!");
+}
+
+
+choice = Console.ReadLine();
+choice = choice.ToLower();
+
+
 
 
 Console.WriteLine("Tryck ENTER för att avsluta.");
